@@ -54,7 +54,7 @@ An iOS application built using the **Model-View-ViewModel (MVVM)** architecture.
 
 ## 📲 Screenshots
 
-| Registration Screen | Google Sign-In | Loader Overlay |
+| Registration Screen | Google Sign-In | Success GoogleSignIN |
 |---------------------|----------------|----------------|
 | ![Registration](Screenshots/registration.png) | ![Google Sign-In](Screenshots/google_signin.png) | ![Loader](Screenshots/success.png) |
 
