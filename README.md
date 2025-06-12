@@ -28,6 +28,7 @@ An iOS application built using the **Model-View-ViewModel (MVVM)** architecture.
 ## 📦 Folder Structure
 
 📁 MVVMApp/
+
 ├── 📁 Models/ # Data models
 
 ├── 📁 ViewModels/ # ViewModel logic
