@@ -1,2 +1,74 @@
-# MVVM
-This is the basic MVVM architecture project with register screen and google signIN.
+# 📱 MVVM iOS App
+
+An iOS application built using the **Model-View-ViewModel (MVVM)** architecture. This project demonstrates clean code practices, separation of concerns, and integrates essential iOS features such as API requests, user registration, Google Sign-In, and loading indicators.
+
+---
+
+## 🚀 Features
+
+- ✅ Clean MVVM architecture using UIKit + Combine
+- ✅ User registration with form validation
+- ✅ Google Sign-In integration
+- ✅ Country code picker UI
+- ✅ Modular network layer using URLSession
+- ✅ Ready for unit testing and scaling
+- ✅ Swift 5 based, lightweight and fast
+
+---
+
+## 🏗️ Architecture Overview
+
+- **ViewController**: Handles UI & observes ViewModel
+- **ViewModel**: Holds state and business logic
+- **Service Layer**: API handling with `URLSession`
+- **Models**: Structs to decode/encode API data
+
+---
+
+## 📦 Folder Structure
+
+📁 MVVMApp/
+├── 📁 Models/ # Data models
+├── 📁 ViewModels/ # ViewModel logic
+├── 📁 Views/ # ViewControllers and UI
+├── 📁 Services/ # Networking layer
+├── 📁 Extensions/ # Helper extensions
+├── 📁 Resources/ # Assets, JSONs, etc.
+└── AppDelegate.swift / SceneDelegate.swift
+
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology      | Purpose                          |
+|----------------|----------------------------------|
+| Swift 5         | Core language                    |
+| UIKit           | UI layer                         |
+| MVVM            | Architecture pattern             |
+| Combine         | Data binding                     |
+| URLSession      | API networking                   |
+| FirebaseAuth    | Google Sign-In                   |
+
+---
+
+## 📲 Screenshots
+
+| Registration Screen | Google Sign-In | Loader Overlay |
+|---------------------|----------------|----------------|
+| ![Registration](Screenshots/registration.png) | ![Google Sign-In](Screenshots/google_signin.png) | ![Loader](Screenshots/success.png) |
+
+> - `registration.png`
+> - `google_signin.png`
+> - `success.png`
+
+---
+
+## 🔄 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/akshay7137/MVVM.git
+
+
