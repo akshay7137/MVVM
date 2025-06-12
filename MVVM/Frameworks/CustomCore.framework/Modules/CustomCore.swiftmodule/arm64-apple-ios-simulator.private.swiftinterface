@@ -1,0 +1,30 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios18.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name CustomCore
+@_exported import CustomCore
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class APIService {
+  public static let shared: CustomCore.APIService
+  public init()
+  public func fetchDataWithCompletionHandler<T>(data: Foundation.Data, url: Swift.String, httpMethod: Swift.String, completion: @escaping (Swift.Result<T, any Swift.Error>) -> Swift.Void) where T : Swift.Decodable
+  public func fetchDataWithAsyncAwait<T>(url: Swift.String, data: Foundation.Data, httpMethod: Swift.String) async throws -> (T, Swift.Int) where T : Swift.Decodable
+  public func getFetchDataUsingAsync(url: Swift.String) async throws -> (Foundation.Data, Swift.Int)
+  @objc deinit
+}
+public struct Validation {
+  public init()
+  public func isValidName(_ name: Swift.String, regx: Swift.String) -> Swift.Bool
+  public func validationAge(age: Swift.String) -> Swift.Bool
+}
+public class ShowMessages {
+  public init()
+  public func showToast(view: UIKit.UIView, message: Swift.String, duration: Swift.Double = 2.0)
+  public func showAlertSingleButton(viewController: UIKit.UIViewController, title: Swift.String, message: Swift.String)
+  public func showConfirmAlert(viewController: UIKit.UIViewController, message: Swift.String, firstButtonTitle: Swift.String, secondButtonTitle: Swift.String, firstButtonAction: @escaping () -> Swift.Void)
+  @objc deinit
+}

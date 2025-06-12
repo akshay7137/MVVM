@@ -1,0 +1,938 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CustomCore",
+    "printedName": "CustomCore",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HttpMethodEnum",
+        "printedName": "HttpMethodEnum",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "POST",
+            "printedName": "POST",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomCore.HttpMethodEnum.Type) -> CustomCore.HttpMethodEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethodEnum",
+                    "printedName": "CustomCore.HttpMethodEnum",
+                    "usr": "s:10CustomCore14HttpMethodEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomCore.HttpMethodEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethodEnum",
+                        "printedName": "CustomCore.HttpMethodEnum",
+                        "usr": "s:10CustomCore14HttpMethodEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CustomCore14HttpMethodEnumO4POSTyA2CmF",
+            "mangledName": "$s10CustomCore14HttpMethodEnumO4POSTyA2CmF",
+            "moduleName": "CustomCore",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "GET",
+            "printedName": "GET",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomCore.HttpMethodEnum.Type) -> CustomCore.HttpMethodEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethodEnum",
+                    "printedName": "CustomCore.HttpMethodEnum",
+                    "usr": "s:10CustomCore14HttpMethodEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomCore.HttpMethodEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethodEnum",
+                        "printedName": "CustomCore.HttpMethodEnum",
+                        "usr": "s:10CustomCore14HttpMethodEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CustomCore14HttpMethodEnumO3GETyA2CmF",
+            "mangledName": "$s10CustomCore14HttpMethodEnumO3GETyA2CmF",
+            "moduleName": "CustomCore",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "PUT",
+            "printedName": "PUT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomCore.HttpMethodEnum.Type) -> CustomCore.HttpMethodEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethodEnum",
+                    "printedName": "CustomCore.HttpMethodEnum",
+                    "usr": "s:10CustomCore14HttpMethodEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomCore.HttpMethodEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethodEnum",
+                        "printedName": "CustomCore.HttpMethodEnum",
+                        "usr": "s:10CustomCore14HttpMethodEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CustomCore14HttpMethodEnumO3PUTyA2CmF",
+            "mangledName": "$s10CustomCore14HttpMethodEnumO3PUTyA2CmF",
+            "moduleName": "CustomCore",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "DELETE",
+            "printedName": "DELETE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomCore.HttpMethodEnum.Type) -> CustomCore.HttpMethodEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethodEnum",
+                    "printedName": "CustomCore.HttpMethodEnum",
+                    "usr": "s:10CustomCore14HttpMethodEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomCore.HttpMethodEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethodEnum",
+                        "printedName": "CustomCore.HttpMethodEnum",
+                        "usr": "s:10CustomCore14HttpMethodEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CustomCore14HttpMethodEnumO6DELETEyA2CmF",
+            "mangledName": "$s10CustomCore14HttpMethodEnumO6DELETEyA2CmF",
+            "moduleName": "CustomCore",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CustomCore.HttpMethodEnum?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethodEnum",
+                    "printedName": "CustomCore.HttpMethodEnum",
+                    "usr": "s:10CustomCore14HttpMethodEnumO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CustomCore14HttpMethodEnumO8rawValueACSgSS_tcfc",
+            "mangledName": "$s10CustomCore14HttpMethodEnumO8rawValueACSgSS_tcfc",
+            "moduleName": "CustomCore",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomCore14HttpMethodEnumO8rawValueSSvp",
+            "mangledName": "$s10CustomCore14HttpMethodEnumO8rawValueSSvp",
+            "moduleName": "CustomCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomCore14HttpMethodEnumO8rawValueSSvg",
+                "mangledName": "$s10CustomCore14HttpMethodEnumO8rawValueSSvg",
+                "moduleName": "CustomCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10CustomCore14HttpMethodEnumO",
+        "mangledName": "$s10CustomCore14HttpMethodEnumO",
+        "moduleName": "CustomCore",
+        "enumRawTypeName": "String",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIService",
+        "printedName": "APIService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APIService",
+                "printedName": "CustomCore.APIService",
+                "usr": "s:10CustomCore10APIServiceC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CustomCore10APIServiceC6sharedACvpZ",
+            "mangledName": "$s10CustomCore10APIServiceC6sharedACvpZ",
+            "moduleName": "CustomCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIService",
+                    "printedName": "CustomCore.APIService",
+                    "usr": "s:10CustomCore10APIServiceC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CustomCore10APIServiceC6sharedACvgZ",
+                "mangledName": "$s10CustomCore10APIServiceC6sharedACvgZ",
+                "moduleName": "CustomCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APIService",
+                "printedName": "CustomCore.APIService",
+                "usr": "s:10CustomCore10APIServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CustomCore10APIServiceCACycfc",
+            "mangledName": "$s10CustomCore10APIServiceCACycfc",
+            "moduleName": "CustomCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchDataWithCompletionHandler",
+            "printedName": "fetchDataWithCompletionHandler(data:url:httpMethod:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<τ_0_0, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<τ_0_0, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CustomCore10APIServiceC30fetchDataWithCompletionHandler4data3url10httpMethod10completiony10Foundation0E0V_S2Sys6ResultOyxs5Error_pGctSeRzlF",
+            "mangledName": "$s10CustomCore10APIServiceC30fetchDataWithCompletionHandler4data3url10httpMethod10completiony10Foundation0E0V_S2Sys6ResultOyxs5Error_pGctSeRzlF",
+            "moduleName": "CustomCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchDataWithAsyncAwait",
+            "printedName": "fetchDataWithAsyncAwait(url:data:httpMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(τ_0_0, Swift.Int)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CustomCore10APIServiceC23fetchDataWithAsyncAwait3url4data10httpMethodx_SitSS_10Foundation0E0VSStYaKSeRzlF",
+            "mangledName": "$s10CustomCore10APIServiceC23fetchDataWithAsyncAwait3url4data10httpMethodx_SitSS_10Foundation0E0VSStYaKSeRzlF",
+            "moduleName": "CustomCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getFetchDataUsingAsync",
+            "printedName": "getFetchDataUsingAsync(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.Data, Swift.Int)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CustomCore10APIServiceC22getFetchDataUsingAsync3url10Foundation0F0V_SitSS_tYaKF",
+            "mangledName": "$s10CustomCore10APIServiceC22getFetchDataUsingAsync3url10Foundation0F0V_SitSS_tYaKF",
+            "moduleName": "CustomCore",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10CustomCore10APIServiceC",
+        "mangledName": "$s10CustomCore10APIServiceC",
+        "moduleName": "CustomCore",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CustomCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Validation",
+        "printedName": "Validation",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Validation",
+                "printedName": "CustomCore.Validation",
+                "usr": "s:10CustomCore10ValidationV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CustomCore10ValidationVACycfc",
+            "mangledName": "$s10CustomCore10ValidationVACycfc",
+            "moduleName": "CustomCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isValidName",
+            "printedName": "isValidName(_:regx:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CustomCore10ValidationV11isValidName_4regxSbSS_SStF",
+            "mangledName": "$s10CustomCore10ValidationV11isValidName_4regxSbSS_SStF",
+            "moduleName": "CustomCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validationAge",
+            "printedName": "validationAge(age:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CustomCore10ValidationV13validationAge3ageSbSS_tF",
+            "mangledName": "$s10CustomCore10ValidationV13validationAge3ageSbSS_tF",
+            "moduleName": "CustomCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10CustomCore10ValidationV",
+        "mangledName": "$s10CustomCore10ValidationV",
+        "moduleName": "CustomCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CustomCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShowMessages",
+        "printedName": "ShowMessages",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ShowMessages",
+                "printedName": "CustomCore.ShowMessages",
+                "usr": "s:10CustomCore12ShowMessagesC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CustomCore12ShowMessagesCACycfc",
+            "mangledName": "$s10CustomCore12ShowMessagesCACycfc",
+            "moduleName": "CustomCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showToast",
+            "printedName": "showToast(view:message:duration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CustomCore12ShowMessagesC9showToast4view7message8durationySo6UIViewC_SSSdtF",
+            "mangledName": "$s10CustomCore12ShowMessagesC9showToast4view7message8durationySo6UIViewC_SSSdtF",
+            "moduleName": "CustomCore",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAlertSingleButton",
+            "printedName": "showAlertSingleButton(viewController:title:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CustomCore12ShowMessagesC21showAlertSingleButton14viewController5title7messageySo06UIViewJ0C_S2StF",
+            "mangledName": "$s10CustomCore12ShowMessagesC21showAlertSingleButton14viewController5title7messageySo06UIViewJ0C_S2StF",
+            "moduleName": "CustomCore",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showConfirmAlert",
+            "printedName": "showConfirmAlert(viewController:message:firstButtonTitle:secondButtonTitle:firstButtonAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CustomCore12ShowMessagesC16showConfirmAlert14viewController7message16firstButtonTitle06secondlM00kL6ActionySo06UIViewI0C_S3SyyctF",
+            "mangledName": "$s10CustomCore12ShowMessagesC16showConfirmAlert14viewController7message16firstButtonTitle06secondlM00kL6ActionySo06UIViewI0C_S3SyyctF",
+            "moduleName": "CustomCore",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10CustomCore12ShowMessagesC",
+        "mangledName": "$s10CustomCore12ShowMessagesC",
+        "moduleName": "CustomCore",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/akshaysingh\/IOS \/Framework\/CustomCore\/CustomCore\/UIHelper\/UIHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 226,
+      "length": 3,
+      "value": "2.0"
+    }
+  ]
+}

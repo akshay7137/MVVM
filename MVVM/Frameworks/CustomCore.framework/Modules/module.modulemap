@@ -1,0 +1,6 @@
+framework module CustomCore {
+  umbrella header "CustomCore.h"
+  export *
+
+  module * { export * }
+}
