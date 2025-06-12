@@ -78,4 +78,10 @@ An iOS application built using the **Model-View-ViewModel (MVVM)** architecture.
 ```bash
 git clone https://github.com/akshay7137/MVVM.git
 
+## Please add your own googleservice-info.plist file.
+you can get that from firebase -> Go to Console -> create app.
+After you created your app success fully then go to Authentication -> Google -> Enable Google -> download googleservice-info.plist file.
+Add that file in the project and make the change in url schema withreversed-api-key.
+Run the project and enjoy.
+
 
