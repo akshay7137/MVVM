@@ -29,11 +29,17 @@ An iOS application built using the **Model-View-ViewModel (MVVM)** architecture.
 
 📁 MVVMApp/
 ├── 📁 Models/ # Data models
+
 ├── 📁 ViewModels/ # ViewModel logic
+
 ├── 📁 Views/ # ViewControllers and UI
+
 ├── 📁 Services/ # Networking layer
+
 ├── 📁 Extensions/ # Helper extensions
+
 ├── 📁 Resources/ # Assets, JSONs, etc.
+
 └── AppDelegate.swift / SceneDelegate.swift
 
 
