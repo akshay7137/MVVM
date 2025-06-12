@@ -28,12 +28,19 @@ An iOS application built using the **Model-View-ViewModel (MVVM)** architecture.
 ## 📦 Folder Structure
 
 📁 MVVMApp/
+
 ├── 📁 Models/ # Data models
+
 ├── 📁 ViewModels/ # ViewModel logic
+
 ├── 📁 Views/ # ViewControllers and UI
+
 ├── 📁 Services/ # Networking layer
+
 ├── 📁 Extensions/ # Helper extensions
+
 ├── 📁 Resources/ # Assets, JSONs, etc.
+
 └── AppDelegate.swift / SceneDelegate.swift
 
 
@@ -54,7 +61,7 @@ An iOS application built using the **Model-View-ViewModel (MVVM)** architecture.
 
 ## 📲 Screenshots
 
-| Registration Screen | Google Sign-In | Loader Overlay |
+| Registration Screen | Google Sign-In | Success GoogleSignIN |
 |---------------------|----------------|----------------|
 | ![Registration](Screenshots/registration.png) | ![Google Sign-In](Screenshots/google_signin.png) | ![Loader](Screenshots/success.png) |
 
